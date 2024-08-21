@@ -102,7 +102,7 @@ namespace RegionRestriction
         {
             if (args.Parameters.Count != 2)
             {
-                args.Player.SendErrorMessage("Usage: /regionadd <region_name> <required_group>");
+                args.Player.SendErrorMessage("Usage: /regionadd <region name> <required group>");
                 return;
             }
 
